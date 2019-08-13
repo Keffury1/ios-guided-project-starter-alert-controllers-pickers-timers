@@ -37,6 +37,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37248AE9230244F40090E37C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BD02B68C228292AC003F3D78 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		37248AEA230244F70090E37C /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD02B69A228292CD003F3D78 /* Countdown.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		37248AEB230244F90090E37C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD02B68A228292AC003F3D78 /* CountdownViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		BD02B67C228292AC003F3D78 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +80,10 @@
 		BD02B687228292AC003F3D78 /* Countdown */ = {
 			isa = PBXGroup;
 			children = (
+				37248AEB230244F90090E37C /* View Controllers */,
+				37248AEA230244F70090E37C /* Custom Views */,
+				37248AE9230244F40090E37C /* Storyboards */,
 				BD02B688228292AC003F3D78 /* AppDelegate.swift */,
-				BD02B68A228292AC003F3D78 /* CountdownViewController.swift */,
-				BD02B69A228292CD003F3D78 /* Countdown.swift */,
-				BD02B68C228292AC003F3D78 /* Main.storyboard */,
 				BD02B68F228292AD003F3D78 /* Assets.xcassets */,
 				BD02B691228292AD003F3D78 /* LaunchScreen.storyboard */,
 				BD02B694228292AD003F3D78 /* Info.plist */,
